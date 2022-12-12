@@ -1,5 +1,7 @@
 # UE5_NewAnimSystemsSample
 [![](https://img.youtube.com/vi/CFaJPFXuHjU/0.jpg)](https://www.youtube.com/watch?v=CFaJPFXuHjU)  
+https://www.youtube.com/watch?v=CFaJPFXuHjU  
+
 UE5のアニメーションに関する新機能をかんたんに確認・検証するために用意したサンプルです。  
 各機能のON/OFF・プロパティを制御するUIを使って、標準のアニメーションに新機能を適用した際の効果を見ることができます。また、サンプルにあるAnim Blueprint（ABP_UE5AnimSystemSample）を見ることで、各新機能の使用方法についても確認できます。
 
