@@ -32,12 +32,14 @@ RootMotionなアニメーションであれば何でもよいのですが、本�
 ](https://www.unrealengine.com/marketplace/ja/product/28fc3cc4332541e3b0037d67a65e5d6d?sessionInvalidated=true)をプロジェクトに追加
 2. Content/MCO_Mocap_Basics/Animation/Mobility_Pro/Root_Motion/MOB1_Jog_F_to_Stand_Relaxed_RU に対してリターゲットを実行  
 
-![image](https://user-images.githubusercontent.com/8957600/206977489-0322ffdf-f3aa-4f33-9000-38f88b4ae94a.png)
-![image](https://user-images.githubusercontent.com/8957600/206977661-aaa0567f-25ad-473c-9219-d6f0ca3cbc5b.png)
+<img src="https://user-images.githubusercontent.com/8957600/206977489-0322ffdf-f3aa-4f33-9000-38f88b4ae94a.png" width="50%">　
+<img src="https://user-images.githubusercontent.com/8957600/206977661-aaa0567f-25ad-473c-9219-d6f0ca3cbc5b.png" width="50%">
+
 3. 2で生成したAnimationSequence を MM_Stop にリネーム  
 4. MM_Stopを開き、EnableRootMotion と Force Root Lockを有効に
 
 ![image](https://user-images.githubusercontent.com/8957600/206978077-eebd2207-2af7-4ba1-a5f4-e38beca109a8.png)  
 5. DistanceCurveModifierを適用し、Rootボーンの移動量からAnimCurveを生成
+6. 
+<img src="https://user-images.githubusercontent.com/8957600/206978830-a3654861-22f2-4aea-901f-81fd42607b7e.gif" width="50%">
 
-![applymodifier](https://user-images.githubusercontent.com/8957600/206978830-a3654861-22f2-4aea-901f-81fd42607b7e.gif)
