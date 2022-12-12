@@ -40,6 +40,19 @@ RootMotionなアニメーションであれば何でもよいのですが、本�
 
 ![image](https://user-images.githubusercontent.com/8957600/206978077-eebd2207-2af7-4ba1-a5f4-e38beca109a8.png)  
 5. DistanceCurveModifierを適用し、Rootボーンの移動量からAnimCurveを生成
-6. 
-<img src="https://user-images.githubusercontent.com/8957600/206978830-a3654861-22f2-4aea-901f-81fd42607b7e.gif" width="50%">
 
+<img src="https://user-images.githubusercontent.com/8957600/206978830-a3654861-22f2-4aea-901f-81fd42607b7e.gif" width="50%">
+6. MM_Stopに対して、AnimCurveCompressionSettings_UniformIndexableによりAniCurveの圧縮処理を実行  
+
+<img src="https://user-images.githubusercontent.com/8957600/206980425-16904d46-9e65-4074-bfc1-59d161104dff.png" width="50%">
+
+![image](https://user-images.githubusercontent.com/8957600/206980472-4b321b69-e4ba-49b7-b941-cd504db092ab.png)  
+
+7. Content/UE5AnimSystemSample/Animation/ ABP_UE5AnimSystemSample を開き、Stop Anim Sequenceプロパティに MM_Stop を指定  
+
+![image](https://user-images.githubusercontent.com/8957600/206980072-515be3d8-ab6e-48de-8277-76478507a075.png)
+
+おわり
+
+# 作者
+[おかず@pafuhana1213](https://twitter.com/pafuhana1213)
